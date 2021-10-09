@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background: rgb(78, 75, 75);
+}
+header{
+    text-align: center;
+    background: #c7949465;
+    font-family:'Spectral SC', serif;
+    border: .3rem solid black;
+    padding-bottom: 2rem;
+}
+header h1{
+    font-weight: 800;
+    color: rgb(230, 222, 222);
+}
+header h2{
+    font-weight: 300;
+}
+nav a{
+    margin: 0 1rem;
+    color:rgb(56, 23, 56);
+}
+nav a:hover {
+    color: white;
+}
+main{
+    max-width: 60rem;
+    margin:0 auto;
+}
+img{
+    width: 100%;
+    max-width: 32rem;
+    margin: 0 auto;
+    display: block;
+}
+section{ 
+    margin: 1.8rem;
+    font-family: 'Texturina', serif;
+    border-left:1rem solid black;
+}
+section h3{
+    margin: 0;
+    color: rgb(206, 198, 198);
+    background: rgba(88, 8, 8, 0.61);
+    padding: .5rem;
+    font-weight: 700;
+}
+section p{
+    margin: 0;
+    padding: .5rem;
+    text-align: justify;
+    background: rgb(206, 203, 203);
+}
+footer{
+    margin: 0;
+    padding: .8rem;
+    background: #d3d3d365;
+    text-align: center;
+    font-family:'Spectral SC', serif;
+}
