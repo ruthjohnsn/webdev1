@@ -3,18 +3,23 @@ img {
 }
 body{
     background-image: url("https://web.archive.org/web/20091027085136/http://geocities.com/cathay999/_borders/flash.gif");
-    /*   background-repeat: no-repeat; */
-/*   background-size: cover; */
+}
+body h1{
+    color: white;
+}
+body h2{
+    color: violet;
 }
 .box-with-hover{
-    width: 20em;
+    width: 20rem;
     height: 20em;
     border: .8em ridge rgb(173, 1, 59);
     background: rgb(255, 94, 0);
-    color: black;
+    font-family: 'Qahiri', sans-serif;
 }
 .box-with-hover:hover {
-    background:rgb(111, 20, 114);
+    background-image: url("https://i.pinimg.com/474x/2b/45/a0/2b45a00421c2efbe8c899f2de7f11e03.jpg");
+    background-size: contain;
     color:white;
     cursor: wait;
 }
