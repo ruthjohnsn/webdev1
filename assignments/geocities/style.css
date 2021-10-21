@@ -6,20 +6,32 @@ body{
 }
 body h1{
     color: white;
+    font-family: 'Creepster', cursive;
 }
 body h2{
     color: violet;
+    font-family: 'Creepster', cursive;
 }
-.box-with-hover{
-    width: 20rem;
-    height: 20em;
+.box-with-hover-fixed{
+    position: fixed;
+    width: 188px;
+    height: 280px;
+    top: 0;
+    right: 0;
+    z-index: 100;
     border: .8em ridge rgb(173, 1, 59);
     background: rgb(255, 94, 0);
     font-family: 'Qahiri', sans-serif;
 }
-.box-with-hover:hover {
+.box-with-hover-fixed:hover {
     background-image: url("https://i.pinimg.com/474x/2b/45/a0/2b45a00421c2efbe8c899f2de7f11e03.jpg");
     background-size: contain;
     color:white;
     cursor: wait;
+}
+.absolute-box {
+    background-image: url("https://m.media-amazon.com/images/I/5173M+WR0eL._AC_SY450_.jpg");
+    position: absolute;
+    width: 302px;
+    height: 450px;
 }
