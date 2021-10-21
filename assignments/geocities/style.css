@@ -1,3 +1,20 @@
 img {
-    max-width: 300px;
+    max-width: 18em;
+}
+body{
+    background-image: url("https://web.archive.org/web/20091027085136/http://geocities.com/cathay999/_borders/flash.gif");
+    /*   background-repeat: no-repeat; */
+/*   background-size: cover; */
+}
+.box-with-hover{
+    width: 20em;
+    height: 20em;
+    border: .8em ridge rgb(173, 1, 59);
+    background: rgb(255, 94, 0);
+    color: black;
+}
+.box-with-hover:hover {
+    background:rgb(111, 20, 114);
+    color:white;
+    cursor: wait;
 }
