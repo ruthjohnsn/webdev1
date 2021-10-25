@@ -62,7 +62,7 @@ audio{
     right: 300px;
 }
 .cits {
-    position: fixed;
+    position: absolute;
     top: 450px;
     right: 0;
 }
