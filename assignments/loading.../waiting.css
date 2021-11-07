@@ -1,0 +1,27 @@
+img{
+    max-width: 20em;
+    animation-name: waiting;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes waiting {
+    0% {
+      transform: scale(0.95);
+    }
+    5% {
+      transform: scale(1.1);
+    }
+    35% {
+      transform: scale(0.85);
+    }
+    40% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(0.95);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
