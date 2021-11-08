@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+  }
+  
+  .circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background: pink;
+    margin: 1em;
+    animation: load 6s;
+    animation-fill-mode: forwards;
+  }
+  
+  .delay1 {
+    animation-delay: 0s;
+  }
+  .delay2 {
+    animation-delay: 1s;
+    background: crimson;
+  }
+  .delay3 {
+    animation-delay: 2s;
+    background: black;
+  }
+  
+  @keyframes load {
+    
+    from {
+      transform: scale(8, 1);
+    }
+    
+    to {
+      transform: scale(0, 1);
+    }
+  }

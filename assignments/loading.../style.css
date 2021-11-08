@@ -1,0 +1,16 @@
+h1 {
+    font-size: 5em;
+    margin: 0;
+    text-align: center;
+}
+nav {
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+}
+a {
+    padding: .5em;
+}
+a:hover {
+    color: rgb(208, 255, 0);
+}
