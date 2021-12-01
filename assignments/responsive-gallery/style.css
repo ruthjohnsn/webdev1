@@ -11,11 +11,11 @@ header {
     display: flex;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2.6px;
-    font-size: medium;
+    font-size: .9em;
 }
 
 nav a {
-    margin: 1em;
+    margin: 1.5em;
     color: rgb(85, 85, 85);
     text-decoration: none;
 }
@@ -76,6 +76,9 @@ nav a:hover {
 @media (max-width: 1050px) {
     .grid-container {
         grid-template-columns: 1fr 1fr; }
+    nav a {
+        margin: .8em;
+    }
 }
 
 @media (max-width: 768px) {
@@ -85,6 +88,8 @@ nav a:hover {
         font-size: medium;}
     .main-menu{
         font-size: small;}
+    nav a {
+        margin: .5em;}
 }
 
 
