@@ -35,9 +35,9 @@ nav a:hover {
     display: grid;
     gap: .25em;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
 
 .image {
@@ -65,7 +65,7 @@ nav a:hover {
     right: 0;
     bottom: 0;
     left: 0;
-    font-size: 2rem;
+    font-size: 1em;
     display: grid;
     place-items: center;
     
