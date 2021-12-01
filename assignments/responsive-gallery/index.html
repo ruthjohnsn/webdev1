@@ -1,76 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap" rel="stylesheet">
-<div class="grid-container">
-    <a href="#" class="hover-card">
-        <div class="overlay">Photo 1</div>
-        <img class="image" src="images/2017show.jpg" alt="guitarist">
-    </a>
-    <a href="#" class="hover-card">
-        <div class="overlay">Photo 2</div>
-        <img class="image" src="images/2018show.jpg" alt="guitarist">
-    </a>
-    <a href="#" class="hover-card">
-        <div class="overlay">Photo 3</div>
-        <img class="image" src="images/valentinesshow.jpg" alt="blurred image of a performer, pink toned">
-    </a>
-    <a href="#" class="hover-card">
-        <div class="overlay">Photo 4</div>
-        <img class="image" src="images/2019jan.jpg" alt="blurry guitarist">
-    </a>
-    <a href="#" class="hover-card">
-        <div class="overlay">Photo 5</div>
-    <img class="image" src="images/watchers.jpg" alt="audience at a show">
-    </a>
-    <a href="#" class="hover-card">
-        <div class="overlay">Photo 6</div>
-        <img class="image" src="images/2019show.jpg" alt="singer and crowd">
-    </a>
-    <a href="#" class="hover-card">
-        <div class="overlay">Photo 7</div>
-        <img class="image" src="images/crowd.jpg" alt="blurry photo of audience">
-    </a>
-    <a href="#" class="hover-card">
-        <div class="overlay">Photo 8</div>
-        <img class="image" src="images/2021show.JPG" alt="dark image of band">
-    </a>
-    <a href="#" class="hover-card">
-        <div class="overlay">Photo 9</div>
-        <img class="image" src="images/basement.JPG" alt="drumset">
-    </a>
-    <a href="#" class="hover-card">
-        <div class="overlay">Photo 10</div>
-        <img class="image" src="images/hazel.jpg" alt="out of focus portrait of a woman">
-    </a>
-    <a href="#" class="hover-card">
-        <div class="overlay">Photo 11</div>
-        <img class="image" src="images/helmet.jpg" alt="guitarist on stage">
-    </a>
-    <a href="#" class="hover-card">
-        <div class="overlay">Photo 12</div>
-        <img class="image" src="images/ontheway.png" alt="woman doing makeup on a train">
-    </a>
-</div>
-    <title>Responsive Gallery</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap" rel="stylesheet">
+  <title>Responsive Gallery</title>
 </head>
 
+<!-- I moved some things around in here. You always have to close your <head> section before you put any of your content in your page. All your content must go in the <body> tag.-->
 <body>
-    <div class="header">
-          <h1 class="site-title">RUTH JOHNSON</h1>
-          <nav class="main-menu">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            <a href="#">Work</a>
-          </nav>
-    </div>
-</body>
 
+  <!-- instead of <div class="header">, just use the <header> tag, which is more semantic -->
+  <header>
+    <h1 class="site-title">RUTH JOHNSON</h1>
+    <nav class="main-menu">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Work</a>
+    </nav>
+  </header>
+
+  <div class="grid-container">
+    <a href="#" class="hover-card">
+      <div class="overlay">Photo 1</div>
+      <img class="image" src="images/2017show.jpg" alt="guitarist">
+    </a>
+    <a href="#" class="hover-card">
+      <div class="overlay">Photo 2</div>
+      <img class="image" src="images/2018show.jpg" alt="guitarist">
+    </a>
+    <a href="#" class="hover-card">
+      <div class="overlay">Photo 3</div>
+      <img class="image" src="images/valentinesshow.jpg" alt="blurred image of a performer, pink toned">
+    </a>
+    <a href="#" class="hover-card">
+      <div class="overlay">Photo 4</div>
+      <img class="image" src="images/2019jan.jpg" alt="blurry guitarist">
+    </a>
+    <a href="#" class="hover-card">
+      <div class="overlay">Photo 5</div>
+      <img class="image" src="images/watchers.jpg" alt="audience at a show">
+    </a>
+    <a href="#" class="hover-card">
+      <div class="overlay">Photo 6</div>
+      <img class="image" src="images/2019show.jpg" alt="singer and crowd">
+    </a>
+    <a href="#" class="hover-card">
+      <div class="overlay">Photo 7</div>
+      <img class="image" src="images/crowd.jpg" alt="blurry photo of audience">
+    </a>
+    <a href="#" class="hover-card">
+      <div class="overlay">Photo 8</div>
+      <img class="image" src="images/2021show.JPG" alt="dark image of band">
+    </a>
+    <a href="#" class="hover-card">
+      <div class="overlay">Photo 9</div>
+      <img class="image" src="images/basement.JPG" alt="drumset">
+    </a>
+    <a href="#" class="hover-card">
+      <div class="overlay">Photo 10</div>
+      <img class="image" src="images/hazel.jpg" alt="out of focus portrait of a woman">
+    </a>
+    <a href="#" class="hover-card">
+      <div class="overlay">Photo 11</div>
+      <img class="image" src="images/helmet.jpg" alt="guitarist on stage">
+    </a>
+    <a href="#" class="hover-card">
+      <div class="overlay">Photo 12</div>
+      <img class="image" src="images/ontheway.png" alt="woman doing makeup on a train">
+    </a>
+  </div>
+</body>
 </html>

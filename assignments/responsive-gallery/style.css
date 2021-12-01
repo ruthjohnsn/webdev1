@@ -1,19 +1,19 @@
 * {margin: 0; padding: 0; box-sizing: border-box;}
 .header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: .5em;
-height: 10vh;
-justify-content: space-between;
+    justify-content:space-between;
 }
 
 .main-menu {
     display: flex;
+    font-family: 'Barlow', sans-serif;
 }
-body .site-title {
+.site-title {
     margin: 1em;
     display: flex;
-
+    font-family: 'Barlow', sans-serif;
 }
 
 .grid-container {
