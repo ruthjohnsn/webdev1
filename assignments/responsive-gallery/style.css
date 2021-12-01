@@ -1,4 +1,25 @@
 * {margin: 0; padding: 0; box-sizing: border-box;}
+.flex-container {
+    display: flex;
+    padding: .5em;
+    
+}
+header {
+    justify-content: space-between;
+    margin: 2em;
+}
+.main-medu {
+    display: flex;
+}
+.site-title {
+    margin: 1em;
+}
+
+
+
+
+
+
 .grid-container {
     height: 100vh;
     display: grid;
