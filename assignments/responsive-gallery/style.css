@@ -2,12 +2,9 @@
 .flex-container {
     display: flex;
     padding: .5em;
-    
+
 }
-header {
-    justify-content: space-between;
-    margin: 2em;
-}
+
 .main-medu {
     display: flex;
 }
