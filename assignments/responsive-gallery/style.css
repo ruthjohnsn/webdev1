@@ -5,7 +5,11 @@
     gap: .25em;
     grid-template-columns: 1fr 1fr 1fr;
   }
-
+.image {
+    object-fit: cover;
+    height: 250px;
+    width: 450px;
+}
   @media (max-width: 500px) {
 
     .grid-container {
