@@ -52,7 +52,7 @@ nav a:hover {
 }
 
 .hover-card:hover .overlay {
-    opacity: .75;
+    opacity: .9; /* I know we did opacity of 1 in class but it looks on her website like there is still a little transparency*/
 }
 
 .overlay {
@@ -67,8 +67,7 @@ nav a:hover {
     left: 0;
     font-size: 1em;
     display: grid;
-    place-items: center;
-    
+    place-items: center; 
     transition: all .25s;
     font-family: 'Roboto', sans-serif;
 }
