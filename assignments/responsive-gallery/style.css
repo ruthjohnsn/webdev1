@@ -1,16 +1,19 @@
 * {margin: 0; padding: 0; box-sizing: border-box;}
 .header {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     padding: .5em;
 height: 10vh;
 justify-content: space-between;
 }
 
-.main-medu {
+.main-menu {
     display: flex;
 }
-.site-title {
+body .site-title {
     margin: 1em;
+    display: flex;
+
 }
 
 
