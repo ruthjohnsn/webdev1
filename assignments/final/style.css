@@ -59,21 +59,19 @@ footer{
     padding-right: 50px;
     padding-bottom: 50px;
 }
-    
-    
 p{
     font-family: 'Roboto', sans-serif;;
 }
 .image {
     object-fit: cover;
     height: 250px;
-    width: 100%;
+    width: 250px;
     display: block;
 }
 .image2 {
+    height: 400px;
+    width: 100%;
     object-fit: cover;
-    height: 300px;
-    width: 300px;
 }
 .hover-card {
     position: relative;
@@ -100,10 +98,8 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 .overlay-container {
-    display: grid;
     position: relative;
-    justify-content: space-around;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
@@ -129,7 +125,12 @@ p{
     .footer{
         font-size: x-small;
     }
-    
+    .overlay-container{
+        display: block;
+    }
+    .overlay-container p{
+        position: absolute;
+    }
     nav a {
         margin: .5em;}
 }
