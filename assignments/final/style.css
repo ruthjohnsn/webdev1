@@ -51,6 +51,14 @@ footer{
     width: 20px;
     display: block;
 }
+.jewelryiglink {
+    height: 100px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
 .grid-container {
     display: grid;
     gap: .25em;
@@ -102,8 +110,8 @@ p{
     position: relative;
     display: flex;
     padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-bottom: 25px;
     gap: 2em;
     align-items: center;
@@ -133,6 +141,8 @@ p{
             color: rgb(0, 0, 0);
             background: #fff;
             position: relative;
+            padding-left: 50px;
+            padding-right: 50px;
             z-index: 1;
             top: 0;
             right: 0;
