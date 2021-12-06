@@ -6,7 +6,11 @@ header {
     margin: auto;
     align-items: center;
 }
-
+.subhead {
+    display: grid;
+    justify-content: center;
+    font-family: 'Irish Grover', cursive;
+}
 .main-menu {
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -16,12 +20,12 @@ header {
 
 nav a {
     margin: 1.5em;
-    color: rgb(85, 85, 85);
+    color: rgb(36, 36, 36);
     text-decoration: none;
 }
 
 nav a:hover {
-    color: black;
+    color: rgb(143, 0, 0);
 }
 
 .site-title {
@@ -30,7 +34,23 @@ nav a:hover {
     font-size: x-large;
     letter-spacing: 2.6px;
 }
-
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: rgb(170, 170, 170);
+}
+.footer{
+    font-family: 'Roboto', sans-serif;
+    font-size:small;
+    letter-spacing: 2.6px;
+    padding-left: 10px;
+}
+.footerimage{
+    height: 20px;
+    width: 20px;
+    display: block;
+}
 .grid-container {
     display: grid;
     gap: .25em;
@@ -39,20 +59,30 @@ nav a:hover {
     padding-right: 50px;
     padding-bottom: 50px;
 }
-
+.p2grid {
+    
+    
+}
+p{
+    font-family: 'Roboto', sans-serif;;
+}
 .image {
     object-fit: cover;
     height: 250px;
     width: 100%;
     display: block;
 }
-
+.image2 {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
 .hover-card {
     position: relative;
 }
 
 .hover-card:hover .overlay {
-    opacity: .9; /* I know we did opacity of 1 in class but it looks on her website like there is still a little transparency*/
+    opacity: .6;
 }
 
 .overlay {
@@ -71,7 +101,16 @@ nav a:hover {
     transition: all .25s;
     font-family: 'Roboto', sans-serif;
 }
-
+.overlay-container {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    gap: 2em;
+}
 
 @media (max-width: 1050px) {
     .grid-container {
@@ -88,6 +127,10 @@ nav a:hover {
         font-size: medium;}
     .main-menu{
         font-size: small;}
+    .footer{
+        font-size: x-small;
+    }
+    .
     nav a {
         margin: .5em;}
 }
