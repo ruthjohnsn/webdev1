@@ -116,7 +116,14 @@ p{
     gap: 2em;
     align-items: center;
 }
-
+@media (min-width: 769px) {
+    .overlay-container {
+        transition: .2s ease-in-out;
+    }
+    .overlay-container:hover {
+        transform: scale(1.2);
+    }
+}
 @media (max-width: 1050px) {
     .grid-container {
         grid-template-columns: 1fr 1fr; }
