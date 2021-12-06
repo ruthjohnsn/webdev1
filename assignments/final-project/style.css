@@ -17,17 +17,14 @@ header {
     letter-spacing: 2.6px;
     font-size: .9em;
 }
-
 nav a {
     margin: 1.5em;
     color: rgb(36, 36, 36);
     text-decoration: none;
 }
-
 nav a:hover {
     color: rgb(143, 0, 0);
 }
-
 .site-title {
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -81,6 +78,7 @@ p{
     height: 40%;
     width: 40%;
     object-fit: cover;
+    box-shadow: 10px 10px 10px 10px grey;
 }
 .hover-card {
     position: relative;
