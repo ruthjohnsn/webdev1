@@ -59,10 +59,9 @@ footer{
     padding-right: 50px;
     padding-bottom: 50px;
 }
-.p2grid {
     
     
-}
+
 p{
     font-family: 'Roboto', sans-serif;;
 }
@@ -103,6 +102,7 @@ p{
 }
 .overlay-container {
     display: grid;
+    position: relative;
     justify-content: space-around;
     grid-template-columns: 1fr 1fr;
     padding-top: 50px;
@@ -130,7 +130,7 @@ p{
     .footer{
         font-size: x-small;
     }
-    .
+    
     nav a {
         margin: .5em;}
 }
