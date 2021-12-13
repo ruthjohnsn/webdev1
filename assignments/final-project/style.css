@@ -6,6 +6,9 @@ header {
     margin: auto;
     align-items: center;
 }
+body{
+    background-color: rgb(190, 190, 190);
+}
 .subhead {
     display: grid;
     justify-content: center;
