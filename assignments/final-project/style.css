@@ -7,7 +7,7 @@ header {
     align-items: center;
 }
 body{
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(243, 243, 243);
 }
 .subhead {
     display: grid;
@@ -38,7 +38,7 @@ footer{
     display: flex;
     justify-content: center;
     padding: 25px;
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(99, 95, 95);
 }
 .footer{
     font-family: 'Roboto', sans-serif;
